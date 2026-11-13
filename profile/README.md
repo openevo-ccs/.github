@@ -86,7 +86,7 @@ Explore the data visually, with interactive charts and topic browsers, in the **
 
 This work is a concrete example of CCS methods applied to a real, high-stakes curricular question: how do we teach students that they are, themselves, products and agents of cultural and biological evolution — and where in a national curriculum does that story already have room to be told?
 
-Our **[EvoMentor_DE](https://github.com/openevo-ccs/EvoMentor_DE)** repository is the German-language digital ecosystem built around the same theme, for direct classroom integration.
+The German-language classroom tools built around the same theme now live in **[OpenLPM](https://openevo-ccs.github.io/openlpm/)**. The earlier [EvoMentor_DE](https://github.com/openevo-ccs/EvoMentor_DE) repository is archived.
 
 ---
 
@@ -120,7 +120,7 @@ Curriculum- and Learning-Progression-Model-specific repositories are currently i
 | **[conceptbase](https://github.com/openevo-ccs/conceptbase)** | ConceptBase — a Foundational Repo: concept/LPM/strand ontology instances, schemas, vocabularies, and the ConceptBase Explorer app |
 | **[openevo-core](https://github.com/openevo-ccs/openevo-core)** | The shared kernel — upper ontology, identifier scheme, cross-repo RFC process, and the `w3id.org/openevo` namespace root |
 | **[eva_buch](https://github.com/openevo-ccs/eva_buch)** | German-language topic modelling dataset and interactive visualizations supporting Susan Hanisch's forthcoming (2027) book on teaching evolutionary anthropology |
-| **[EvoMentor_DE](https://github.com/openevo-ccs/EvoMentor_DE)** | German-language digital ecosystem for evolutionary-anthropology curriculum integration |
+| **[EvoMentor_DE](https://github.com/openevo-ccs/EvoMentor_DE)** | Archived. The German-language curriculum tools moved to [OpenLPM](https://openevo-ccs.github.io/openlpm/) |
 | **[netlogo](https://github.com/openevo-ccs/netlogo)** | Agent-based NetLogo models for teaching evolutionary and behavioral concepts |
 | **[w3id.org](https://github.com/openevo-ccs/w3id.org)** | Our fork of the shared `w3id.org` permanent-identifier registry, used to submit namespace changes upstream |
 
