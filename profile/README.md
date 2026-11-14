@@ -45,7 +45,7 @@ Our own research focus within this broader field is on interdisciplinary structu
 
 **[ConceptBase](https://github.com/openevo-ccs/conceptbase)** is one of nine co-equal **Foundational Repos** sharing [openevo-core](https://github.com/openevo-ccs/openevo-core)'s kernel — the richest and most mature today, hosting the shared ontology instances, controlled vocabularies, and JSON Schemas that let independently maintained curriculum repositories (Learning Progression Models, Strands, competency frameworks) describe their content in a common, interoperable language.
 
-**In plain terms:** think of ConceptBase as a shared dictionary and grammar, not a single master curriculum. It doesn't tell anyone which curriculum is "correct" — it gives independent projects, built by different teams with different theoretical commitments, a common structure so their work can be *compared, linked, and reasoned over together*, the way `schema.org` lets independent websites describe products or events in a way search engines can all understand.
+**In plain terms:** think of ConceptBase as a shared dictionary and grammar. It is no single master curriculum, and it doesn't tell anyone which curriculum is "correct" — it gives independent projects, built by different teams with different theoretical commitments, a common structure so their work can be *compared, linked, and reasoned over together*, the way `schema.org` lets independent websites describe products or events in a way search engines can all understand.
 
 **In more technical terms:** ConceptBase is a Git-native, version-controlled registry of ontology instances (`oe:Concept`, `oe:LPM`, `oe:Strand`, and related classes), controlled vocabularies, and cross-vocabulary alignment records (`skos:closeMatch`, `skos:relatedMatch`, etc.), profiled against existing standards — SKOS, IEEE LOM, schema.org, and 1EdTech CASE — rather than reinventing them. Every entity is openly licensed, persistently identified, and structured for both human review (YAML, pull requests, RFC governance) and machine consumption (flat JSON, with JSON-LD/RDF/SPARQL support on the roadmap).
 
@@ -61,7 +61,7 @@ Every concept, competency, and vocabulary in ConceptBase has a **permanent web a
 
 ## 🎯 Our Aim: Coherence across grades, subjects, and cultures
 
-Curriculum incoherence is a well-documented, everyday problem: a concept taught in Grade 4 science may never be revisited in Grade 8; a term used one way in biology standards may mean something subtly different — or contradictory — in a computer-science AI-literacy framework next door. Multiply that across countries, languages, and educational traditions, and coherence becomes not just a design nicety but a genuine research and policy challenge.
+Curriculum incoherence is a well-documented, everyday problem: a concept taught in Grade 4 science may never be revisited in Grade 8; a term used one way in biology standards may mean something subtly different — or contradictory — in a computer-science AI-literacy framework next door. Multiply that across countries, languages, and educational traditions, and coherence becomes a research and policy challenge as well as a design question.
 
 OpenEvo's aim is to increase both:
 
@@ -72,7 +72,7 @@ OpenEvo's aim is to increase both:
 
 **In plain terms:** a curriculum policy document is already a *model* — a society's model of what a learner should become. Our tools are **meta-models**: models *of* those models. Meta-modelling lets us represent, side by side, the different cultural assumptions embedded in different curricula, so researchers, policymakers, and educators can see clearly where systems align, where they diverge, and why — a form of comparative, computational curriculum literacy that hasn't existed at this scale before.
 
-**In more technical terms:** this means building shared ontologies and schemas (FAIR: Findable, Accessible, Interoperable, Reusable) that different Learning Progression Models can be validated against, alignment records (SKOS-based) that make cross-vocabulary and cross-system comparison an explicit, citable data structure rather than an implicit assumption, and open tooling (the ConceptBase and its companion apps) that make this infrastructure usable by non-specialists, not only ontology engineers.
+**In more technical terms:** this means building shared ontologies and schemas (FAIR: Findable, Accessible, Interoperable, Reusable) that different Learning Progression Models can be validated against, alignment records (SKOS-based) that make cross-vocabulary and cross-system comparison an explicit, citable data structure rather than an implicit assumption, and open tooling (the ConceptBase and its companion apps) that make this infrastructure usable by non-specialists as well as ontology engineers.
 
 ---
 
@@ -86,7 +86,7 @@ Explore the data visually, with interactive charts and topic browsers, in the **
 
 This work is a concrete example of CCS methods applied to a real, high-stakes curricular question: how do we teach students that they are, themselves, products and agents of cultural and biological evolution — and where in a national curriculum does that story already have room to be told?
 
-Our **[EvoMentor_DE](https://github.com/openevo-ccs/EvoMentor_DE)** repository is the German-language digital ecosystem built around the same theme, for direct classroom integration.
+The German-language classroom tools built around the same theme now live in **[OpenLPM](https://openevo-ccs.github.io/openlpm/)**. The earlier [EvoMentor_DE](https://github.com/openevo-ccs/EvoMentor_DE) repository is archived.
 
 ---
 
@@ -103,7 +103,7 @@ Curriculum shapes lives and communities — and yet the models behind it are rar
 Whether you are an **educational researcher** studying learning progressions, a **policymaker** designing or revising standards, an **educator** navigating what a curriculum actually asks of you and your students, or simply a **curious student** who has ever wondered why your school taught things in the order it did — there is a way to contribute:
 
 - 🔍 **Explore** [openevo-core](https://github.com/openevo-ccs/openevo-core) or the [eva_buch app](https://openevo-ccs.github.io/eva_buch/) and see how your own curriculum's concepts map (or don't) onto others.
-- 🧭 **Propose** a new controlled vocabulary or alignment via ConceptBase's RFC-based governance process — every substantive change to the shared ontology is proposed, reviewed, and documented, not decided unilaterally.
+- 🧭 **Propose** a new controlled vocabulary or alignment via ConceptBase's RFC-based governance process — every substantive change to the shared ontology is proposed, reviewed, and documented. Nobody decides it alone.
 - 🌐 **Translate** — multilingual concept labels and definitions are an open, active need across the ecosystem.
 - 💬 **Ask questions** by opening an issue in any repository below, or reach out directly.
 
@@ -120,7 +120,7 @@ Curriculum- and Learning-Progression-Model-specific repositories are currently i
 | **[conceptbase](https://github.com/openevo-ccs/conceptbase)** | ConceptBase — a Foundational Repo: concept/LPM/strand ontology instances, schemas, vocabularies, and the ConceptBase Explorer app |
 | **[openevo-core](https://github.com/openevo-ccs/openevo-core)** | The shared kernel — upper ontology, identifier scheme, cross-repo RFC process, and the `w3id.org/openevo` namespace root |
 | **[eva_buch](https://github.com/openevo-ccs/eva_buch)** | German-language topic modelling dataset and interactive visualizations supporting Susan Hanisch's forthcoming (2027) book on teaching evolutionary anthropology |
-| **[EvoMentor_DE](https://github.com/openevo-ccs/EvoMentor_DE)** | German-language digital ecosystem for evolutionary-anthropology curriculum integration |
+| **[EvoMentor_DE](https://github.com/openevo-ccs/EvoMentor_DE)** | Archived. The German-language curriculum tools moved to [OpenLPM](https://openevo-ccs.github.io/openlpm/) |
 | **[netlogo](https://github.com/openevo-ccs/netlogo)** | Agent-based NetLogo models for teaching evolutionary and behavioral concepts |
 | **[w3id.org](https://github.com/openevo-ccs/w3id.org)** | Our fork of the shared `w3id.org` permanent-identifier registry, used to submit namespace changes upstream |
 
@@ -140,7 +140,7 @@ itself is still private — see the note at the top of this page:
   their own LPMs, staying interoperable with this ecosystem — reach out if that's you; still early)
 
 Nothing here is abandoned — this organization's `.github` profile reflects a small, active lab
-restructuring shared architecture, not a finished product with a hidden roadmap.
+restructuring shared architecture. It is still being built.
 
 ---
 
